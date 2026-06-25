@@ -5,8 +5,12 @@ Landing page de vendas da Formação Render.IA — Montani 3D.
 ## Deploy
 
 **Domínio:** https://formacaorenderia.montani3d.com.br/
+**Repo:** https://github.com/empreendedorartificial/lp-formacao-renderai
 
-Single-file estático (`index.html` + pasta `assets/`). Pode subir direto na hospedagem ou conectar este repo no Cloudflare Pages.
+Repositório git conectado ao Cloudflare Pages. Build vazio (HTML estático), output `/`. Alteração → `git commit` + `git push` → deploy automático em ~30s.
+
+### Prévia de link (Open Graph)
+A imagem que aparece no card de WhatsApp/Instagram/Facebook é definida pelas meta tags `og:image`/`twitter:image` no `<head>`, apontando para `assets/og-formacao-renderia.png` (card 1200×630 com a logo oficial da formação). Sem essas tags, as redes puxam uma imagem qualquer da página.
 
 ## Stack
 
